@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  llm-proxy:
+    build: .
+    container_name: llm-proxy
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 114.114.114.114
+      - 223.5.5.5
+      - 223.6.6.6
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
+      - ./lua:/etc/nginx/lua
+      - ./logs:/var/log/nginx
+    restart: always

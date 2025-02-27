@@ -1,0 +1,595 @@
+2025/02/27 10:34:31 [info] 7#7: *15 client closed connection while waiting for request, client: 172.22.0.1, server: 0.0.0.0:8090
+2025/02/27 10:34:31 [notice] 7#7: *16 [lua] dynamic_routing.lua:20: log_request(): Request Headers: cache-control: no-cache, accept-encoding: gzip, deflate, br, host: localhost:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, content-length: 174, connection: keep-alive, accept: */*, content-type: application/json, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 10:34:31 [notice] 7#7: *16 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 10:34:31 [notice] 7#7: *16 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 10:34:31 [notice] 7#7: *16 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 10:34:31 [notice] 7#7: *16 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 10:34:36 [error] 7#7: *16 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [notice] 7#7: *17 [lua] dynamic_routing.lua:20: log_request(): Request Headers: cache-control: no-cache, accept-encoding: gzip, deflate, br, host: localhost:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, content-length: 174, connection: keep-alive, accept: */*, content-type: application/json, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [notice] 7#7: *17 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [notice] 7#7: *17 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [notice] 7#7: *17 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [notice] 7#7: *17 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:17:04 [info] 7#7: *18 client closed connection while waiting for request, client: 172.22.0.1, server: 0.0.0.0:8090
+2025/02/27 11:17:09 [error] 7#7: *17 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "localhost:8090"
+2025/02/27 11:18:14 [notice] 7#7: *19 [lua] dynamic_routing.lua:20: log_request(): Request Headers: cache-control: no-cache, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, content-length: 174, connection: keep-alive, accept: */*, content-type: application/json, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:14 [notice] 7#7: *19 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:14 [notice] 7#7: *19 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:14 [notice] 7#7: *19 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:14 [notice] 7#7: *19 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:19 [error] 7#7: *19 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:59 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: connection: keep-alive, content-type: application/json, accept: */*, content-length: 174, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:59 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:59 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:59 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:18:59 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:19:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: connection: keep-alive, content-type: application/json, accept: */*, content-length: 128, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, cache-control: no-cache, , client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:19:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:19:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:19:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:19:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:18 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: connection: keep-alive, content-type: application/json, accept: */*, content-length: 174, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:18 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:18 [notice] 7#7: *5 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:18 [notice] 7#7: *5 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:18 [notice] 7#7: *5 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:40 [error] 7#7: *5 open() "/usr/local/openresty/nginx/html/v1/embeddings" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /v1/embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:49 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: connection: keep-alive, content-type: application/json, accept: */*, content-length: 128, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, cache-control: no-cache, , client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:49 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:49 [notice] 7#7: *5 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:49 [notice] 7#7: *5 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:26:49 [notice] 7#7: *5 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:47 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, , client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:47 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:47 [notice] 7#7: *1 [lua] dynamic_routing.lua:126: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:47 [notice] 7#7: *1 [lua] dynamic_routing.lua:127: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:47 [notice] 7#7: *1 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "GET /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:126: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:29:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:10 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:10 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:10 [notice] 7#7: *5 [lua] dynamic_routing.lua:126: Selected model: BAAI/bge-large-en-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:10 [notice] 7#7: *5 [lua] dynamic_routing.lua:127: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-en-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:10 [notice] 7#7: *5 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:50 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:50 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:50 [notice] 7#7: *5 [lua] dynamic_routing.lua:126: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:50 [notice] 7#7: *5 [lua] dynamic_routing.lua:127: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:35:50 [notice] 7#7: *5 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:00 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:00 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:00 [notice] 7#7: *5 [lua] dynamic_routing.lua:126: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:00 [notice] 7#7: *5 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:00 [notice] 7#7: *5 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:05 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:05 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:05 [notice] 7#7: *5 [lua] dynamic_routing.lua:126: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:05 [notice] 7#7: *5 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:05 [notice] 7#7: *5 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:09 [notice] 7#7: *5 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:09 [notice] 7#7: *5 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:09 [notice] 7#7: *5 [lua] dynamic_routing.lua:126: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:09 [notice] 7#7: *5 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:36:09 [notice] 7#7: *5 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:05 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:05 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:05 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:05 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:05 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:10 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:17 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:17 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:17 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:17 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:17 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:22 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:46 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:46 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:46 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: BAAI/bge-large-en-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:46 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-en-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:46 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:51 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:56 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:56 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:56 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:56 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:38:56 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:01 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:42 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:42 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:42 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:42 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:42 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:39:47 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:02 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:02 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:02 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:02 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:02 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:07 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:10 [notice] 7#7: *12 [lua] dynamic_routing.lua:20: log_request(): Request Headers: accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, host: 127.0.0.1:8090, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:10 [notice] 7#7: *12 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:10 [notice] 7#7: *12 [lua] dynamic_routing.lua:126: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:10 [notice] 7#7: *12 [lua] dynamic_routing.lua:127: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:10 [notice] 7#7: *12 [lua] dynamic_routing.lua:128: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:40:15 [error] 7#7: *12 api.siliconflow.cn could not be resolved (110: Operation timed out), client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:46:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:46:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:46:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:46:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:46:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:03 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:03 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:03 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:03 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:03 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:07 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:07 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:07 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-en-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:07 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-en-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:07 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:09 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:09 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:09 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:09 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-zh-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:09 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:11 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 128, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:11 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:11 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-en-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:11 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry.","model":"BAAI/bge-large-en-v1.5"}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:11 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:17 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:17 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:17 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:17 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:17 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:21 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:21 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:21 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:21 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:21 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:23 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:23 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:23 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:23 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:23 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:26 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:26 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:26 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:26 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"deepseek-ai/deepseek-vl2","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:26 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:28 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 174, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:28 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ]
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:28 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:28 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:28 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: host: 127.0.0.1:8090, accept-encoding: gzip, deflate, br, content-length: 193, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, connection: keep-alive, cache-control: no-cache, content-type: application/json, accept: */*, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ],
+  "stream": true
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: Qwen/Qwen2.5-Coder-32B-Instruct, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"stream":true,"model":"Qwen/Qwen2.5-Coder-32B-Instruct","messages":[{"content":"You are a helpful assistant","role":"system"},{"content":"Hi","role":"user"}]}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 11:47:55 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:00:08 [error] 7#7: *1 lua entry thread aborted: runtime error: /etc/nginx/lua/dynamic_routing.lua:8: module 'config' not found:
+	no field package.preload['config']
+	no file '/etc/nginx/lua/config.lua'
+	no file '/etc/nginx/lua/config.lua'
+	no file '/usr/local/openresty/site/lualib/config.ljbc'
+	no file '/usr/local/openresty/site/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/lualib/config.ljbc'
+	no file '/usr/local/openresty/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/config.lua'
+	no file '/usr/local/openresty/site/lualib/config/init.lua'
+	no file '/usr/local/openresty/lualib/config.lua'
+	no file '/usr/local/openresty/lualib/config/init.lua'
+	no file './config.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/site/lualib/config.so'
+	no file '/usr/local/openresty/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/etc/nginx/lua/dynamic_routing.lua:8: in main chunk, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:00:13 [error] 7#7: *2 lua entry thread aborted: runtime error: /etc/nginx/lua/dynamic_routing.lua:8: module 'config' not found:
+	no field package.preload['config']
+	no file '/etc/nginx/lua/config.lua'
+	no file '/etc/nginx/lua/config.lua'
+	no file '/usr/local/openresty/site/lualib/config.ljbc'
+	no file '/usr/local/openresty/site/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/lualib/config.ljbc'
+	no file '/usr/local/openresty/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/config.lua'
+	no file '/usr/local/openresty/site/lualib/config/init.lua'
+	no file '/usr/local/openresty/lualib/config.lua'
+	no file '/usr/local/openresty/lualib/config/init.lua'
+	no file './config.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/site/lualib/config.so'
+	no file '/usr/local/openresty/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/etc/nginx/lua/dynamic_routing.lua:8: in main chunk, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:00:19 [error] 7#7: *3 lua entry thread aborted: runtime error: /etc/nginx/lua/dynamic_routing.lua:8: module 'config' not found:
+	no field package.preload['config']
+	no file '/etc/nginx/lua/config.lua'
+	no file '/etc/nginx/lua/config.lua'
+	no file '/usr/local/openresty/site/lualib/config.ljbc'
+	no file '/usr/local/openresty/site/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/lualib/config.ljbc'
+	no file '/usr/local/openresty/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/config.lua'
+	no file '/usr/local/openresty/site/lualib/config/init.lua'
+	no file '/usr/local/openresty/lualib/config.lua'
+	no file '/usr/local/openresty/lualib/config/init.lua'
+	no file './config.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/site/lualib/config.so'
+	no file '/usr/local/openresty/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/etc/nginx/lua/dynamic_routing.lua:8: in main chunk, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:00:28 [error] 7#7: *4 lua entry thread aborted: runtime error: /etc/nginx/lua/dynamic_routing.lua:8: module 'config' not found:
+	no field package.preload['config']
+	no file '/etc/nginx/lua/config.lua'
+	no file '/etc/nginx/lua/config.lua'
+	no file '/usr/local/openresty/site/lualib/config.ljbc'
+	no file '/usr/local/openresty/site/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/lualib/config.ljbc'
+	no file '/usr/local/openresty/lualib/config/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/config.lua'
+	no file '/usr/local/openresty/site/lualib/config/init.lua'
+	no file '/usr/local/openresty/lualib/config.lua'
+	no file '/usr/local/openresty/lualib/config/init.lua'
+	no file './config.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/usr/local/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/config/init.lua'
+	no file '/usr/local/openresty/site/lualib/config.so'
+	no file '/usr/local/openresty/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/etc/nginx/lua/dynamic_routing.lua:8: in main chunk, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: content-length: 128, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"BAAI/bge-large-zh-v1.5","input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:19 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: content-length: 128, connection: keep-alive, content-type: application/json, accept: */*, cache-control: no-cache, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, , client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+    "input": "SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."
+}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: BAAI/bge-large-zh-v1.5, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/embeddings, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"model":"BAAI/bge-large-zh-v1.5","input":"SiliconFlow appears to be a term that could refer to a process or technology in the semiconductor industry."}, client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:22 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /embeddings HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:29 [notice] 7#7: *1 [lua] dynamic_routing.lua:20: log_request(): Request Headers: content-length: 193, connection: keep-alive, accept: */*, content-type: application/json, cache-control: no-cache, accept-encoding: gzip, deflate, br, host: 127.0.0.1:8090, user-agent: PostmanRuntime-ApipostRuntime/1.1.0, , client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:29 [notice] 7#7: *1 [lua] dynamic_routing.lua:25: log_request(): Request Body: {
+  "messages": [
+    {
+      "content": "You are a helpful assistant",
+      "role": "system"
+    },
+    {
+      "content": "Hi",
+      "role": "user"
+    }
+  ],
+  "stream": true
+}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:29 [notice] 7#7: *1 [lua] dynamic_routing.lua:121: Selected model: deepseek-ai/deepseek-vl2, provider: https://api.siliconflow.cn/v1, full URL: https://api.siliconflow.cn/v1/chat/completions, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:29 [notice] 7#7: *1 [lua] dynamic_routing.lua:122: Modified Request Body: {"messages":[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content":"Hi"}],"stream":true,"model":"deepseek-ai/deepseek-vl2"}, client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
+2025/02/27 12:02:29 [notice] 7#7: *1 [lua] dynamic_routing.lua:123: Modified Headers: Authorization: Bearer sk-xffrgua..., client: 172.22.0.1, server: , request: "POST /chat/completions HTTP/1.1", host: "127.0.0.1:8090"
