@@ -2,7 +2,7 @@
 local backend = {
     siliconflow_backend = {
         url = "https://api.siliconflow.cn/v1",
-        api_key = "sk-xffrguauwhkruxrklxfzxslhedoujajkilppeyuwockhwpal"
+        api_key = "sk-xxxxxx"
     },
     -- ollama_backend = {
     --     url = "http://localhost:11434/v1",
@@ -10,7 +10,7 @@ local backend = {
     -- },
     groq_backend = {
         url = "https://api.groq.com/openai/v1",
-        api_key = "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"
+        api_key = "gsk_xxxx"
     }
 }
 
